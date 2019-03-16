@@ -18,5 +18,7 @@ public interface ICloudService {
     boolean isProxyInstance();
 
     Map<String, ServerInfo> getServers();
+    
+    Map<String, ProxyInfo> getProxys();
 
 }
